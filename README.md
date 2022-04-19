@@ -22,4 +22,4 @@ Implementation of algorithms and data sctructures in Javascript, Python and C#
 |[ Binary Gap]()|Easy|https://leetcode.com/problems/binary-gap/|Fri 22nd|
 |[Binary Gap]()|Easy|https://leetcode.com/problems/binary-gap/|Sat 23rd|
 |[Majority Element]()|Easy|https://leetcode.com/problems/majority-element/|Sat 23rd|
-|[Percolation]()|Easy||Sun 24t|
+|[Percolation]()|Easy||Sun 24th|
