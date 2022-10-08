@@ -7,13 +7,13 @@ function validFrequency(string1, string2){
     var frequencyCounter1 = {};
     var frequencyCounter2 = {};
     
-    for ( var char1 in arr1) {
-        frequencyCounter1[char1] = ( frequencyCounter1[char1] || 0) + 1;
-    }
+    arr1.forEach((char) => {
+        frequencyCounter1[char] = ( frequencyCounter1[char] || 0 ) + 1;
+    })
     
-    for ( var char2 in arr2) {
-        frequencyCounter2[char2] = ( frequencyCounter2[char2] || 0) + 1;
-    }
+    arr2.forEach((char) => {
+        frequencyCounter2[char] = ( frequencyCounter2[char] || 0 ) + 1;
+    })
     
     for( var key in frequencyCounter1) {
         if (frequencyCounter1[key] !== frequencyCounter2[key]) return false;
@@ -23,4 +23,11 @@ function validFrequency(string1, string2){
 }
 
 
-console.log(validFrequency('amanaplanacanalpanama', 'acanalmanplanpamana'));
+console.log(validFrequency('', '')) // true
+console.log(validFrequency('aaz', 'zza')) // false
+console.log(validFrequency('anagram', 'nagaram')) // true
+console.log(validFrequency("rat","car")) // false) // false
+console.log(validFrequency('awesome', 'awesom')) // false
+console.log(validFrequency('amanaplanacanalpanama', 'acanalmanplanpamana')) // false
+console.log(validFrequency('qwerty', 'qeywrt')) // true
+console.log(validFrequency('texttwisttime', 'timetwisttext')) // true
