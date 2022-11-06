@@ -8,8 +8,8 @@ function isSubsequence (string1, string2) {
     let arr1 = string1.split("");
     let arr2 = string2.split(""); 
 
-    i = 0; 
-    j = 0; 
+    let i = 0; 
+    let j = 0; 
 
     while (j < arr2.length && i < arr1.length) {
         if(arr1[i] !== arr2[j]) {
@@ -21,8 +21,6 @@ function isSubsequence (string1, string2) {
     }
 
     return ( i == arr1.length) ? true: false;
-
-
 }
 
 console.log(isSubsequence('hello', 'hello world')); // true
