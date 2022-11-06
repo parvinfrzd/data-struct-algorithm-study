@@ -19,8 +19,11 @@ function averagePair(args, average) {
         if((args[i] + args[leftIndex]) / 2 === average) {
             return true; 
         }
-        leftIndex ++; 
-        i ++; 
+        i ++;
+        if(i >= args.length - 1) {
+            leftIndex ++;
+            i = leftIndex + 1;
+        }
     }
     return false;
 }
