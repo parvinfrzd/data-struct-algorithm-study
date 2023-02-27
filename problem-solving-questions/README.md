@@ -9,5 +9,18 @@
 ### Hash Table
 
 1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+   
+2. Given a roman numeral, convert it to an integer.
+
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+
+
 
 
