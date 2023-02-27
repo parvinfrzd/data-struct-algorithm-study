@@ -1,6 +1,7 @@
 ### Binary Search Tree 
 
 1.  suppose you are given a binary search tree represented as an array. Write a function that determines whether the left or right branch of the tree is larger. The function should return "Right" if the right side is larger and "Left" if the left side is larger. If the tree is has 0 nodes or if the size of the branches are equal, return the empty string.
+2.  Write a function to find the longest common prefix string amongst an array of strings.
    
 ### Linked List 
 
