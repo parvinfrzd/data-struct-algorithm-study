@@ -3,6 +3,8 @@
 1.  suppose you are given a binary search tree represented as an array. Write a function that determines whether the left or right branch of the tree is larger. The function should return "Right" if the right side is larger and "Left" if the left side is larger. If the tree is has 0 nodes or if the size of the branches are equal, return the empty string.
    
 2.  Write a function to find the longest common prefix string amongst an array of strings.
+
+3.  Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
    
 ### Linked List 
 
@@ -15,6 +17,10 @@
     Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
 
     Return the head of the merged linked list.
+
+4.  Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that    each unique element appears only once. The relative order of the elements should be kept the same. (solved with two pointers. but can be also with linkedlist solution)
+   
+5.  Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
 
 ### Hash Table
 

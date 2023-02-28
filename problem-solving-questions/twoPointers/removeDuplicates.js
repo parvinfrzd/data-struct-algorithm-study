@@ -9,6 +9,8 @@ var removeDuplicates = function(nums) {
         uniqueNums.push(nums[i]);
         leftPointer = i;
         count ++;
+      } else {
+        continue;
       }
     }
 
