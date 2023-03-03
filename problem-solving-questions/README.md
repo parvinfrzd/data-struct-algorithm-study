@@ -22,6 +22,10 @@
    
 5.  Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
 
+6.  Given the root of a binary tree, invert the tree, and return its root.
+
+
+
 ### Hash Table
 
 1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
