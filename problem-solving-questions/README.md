@@ -6,6 +6,15 @@
 
 3.  Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
    
+
+### Binary Search 
+
+1.  You are given an array time where time[i] denotes the time taken by the ith bus to complete one trip.
+
+    Each bus can make multiple trips successively; that is, the next trip can start immediately after completing the current trip. Also, each bus operates independently; that is, the trips of  one bus do not influence the trips of any other bus.
+
+    You are also given an integer totalTrips, which denotes the number of trips all buses should make in total. Return the minimum time required for all buses to complete at least totalTrips trips.
+   
 ### Linked List 
 
 1.  You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
