@@ -17,6 +17,8 @@
     You are also given an integer totalTrips, which denotes the number of trips all buses should make in total. Return the minimum time required for all buses to complete at least totalTrips trips.
 
 875. Koko Eating Bananas
+1011. Capacity To Ship Packages Within D Days
+
    
 ### Linked List 
 
