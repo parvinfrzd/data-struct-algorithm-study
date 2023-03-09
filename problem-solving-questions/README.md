@@ -55,6 +55,9 @@ C             100
 D             500
 M             1000
 
+242. Valid Anagram
+
+
 ### Stacks 
 
 1.  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.

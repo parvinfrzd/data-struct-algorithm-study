@@ -5,10 +5,6 @@ function TreeNode(val, left, right) {
   this.right = (right===undefined ? null : right)
 }
 
-/**
-* @param {TreeNode} root
-* @return {TreeNode}
-*/
 var invertTree = function(root) {
   if(root === null) return null; 
   let tempNode = root.left; 
