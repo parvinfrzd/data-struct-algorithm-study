@@ -61,6 +61,8 @@ M             1000
 ### Stacks 
 
 1.  Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+71. Simplify Path
+
 
 An input string is valid if:
 
