@@ -68,3 +68,22 @@ var romanToInt = function(s = '') {
   return result
 
 };
+
+/* 
+  SWITCH PAIRS IN ARRAY 
+  difficulty: easy 
+  solutions: splice and deconstruct 
+*/
+
+var swapElements = function(arr) {
+  let newArr = []; 
+  for(let i = 0; i < arr.length; i+=2) {
+    if(i === arr.length - 1) {
+      newArr.push(arr[i]); 
+    } else {
+      newArr.push(arr[i+1]);
+      newArr.push(arr[i]); 
+    }
+  }
+  return newArr; 
+}
