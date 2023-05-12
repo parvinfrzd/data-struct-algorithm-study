@@ -22,18 +22,17 @@ var isValidPalindrome = function(s) {
   let right = s.length - 1; 
 
   while(left <= right) {
-      while(!isAlphaNumeric(s[left])) 
-          left ++; 
-      while(!isAlphaNumeric(s[right])) 
-          right --;
-      if(s[left].toLowerCase() !== s[right].toLowerCase()) return false;
+    while(!isAlphaNumeric(s[left])) 
+        left ++; 
+    while(!isAlphaNumeric(s[right])) 
+        right --;
+    if(s.charAt(left).toLowerCase() !== s.charAt(right).toLowerCase()) return false;
 
-      left++; 
-      right --;
+    left++; 
+    right --;
   }
 
   return true;
-
 };
 
 var isAlphaNumeric = function (str) {
