@@ -6,7 +6,7 @@ function ListNode(val, next) {
 var mergeTwoLists = function(list1, list2) {
   let merge = new ListNode(0);
   let result = merge;
-  let value = 0; 
+
   while(list1 || list2) {
     if(list1 && list2) {
       if(list1.val < list2.val) {
