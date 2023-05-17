@@ -14,3 +14,15 @@ var twoSum = function(nums, target) {
 
 //hash table 
 
+var twoSum = function(nums, target) {
+    var result = new Map(); 
+
+    for(let i = 0; i < nums.length; i ++) {
+        var diff = target - nums[i]; 
+
+        if(result.has(diff)) 
+            return [i, result.get(diff)]
+        
+        result.set(nums[i], i);
+    }
+};
